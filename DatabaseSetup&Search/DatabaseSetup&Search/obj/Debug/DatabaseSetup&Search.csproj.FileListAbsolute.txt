@@ -1,0 +1,10 @@
+C:\Users\ianwa\OneDrive\school\appr\APPR_lj3_IanWaals\DatabaseSetup&Search\DatabaseSetup&Search\obj\Debug\DatabaseSetup&Search.csproj.AssemblyReference.cache
+C:\Users\ianwa\OneDrive\school\appr\APPR_lj3_IanWaals\DatabaseSetup&Search\DatabaseSetup&Search\obj\Debug\DatabaseSetup_Search.Form1.resources
+C:\Users\ianwa\OneDrive\school\appr\APPR_lj3_IanWaals\DatabaseSetup&Search\DatabaseSetup&Search\obj\Debug\DatabaseSetup_Search.Properties.Resources.resources
+C:\Users\ianwa\OneDrive\school\appr\APPR_lj3_IanWaals\DatabaseSetup&Search\DatabaseSetup&Search\obj\Debug\DatabaseSetup&Search.csproj.GenerateResource.cache
+C:\Users\ianwa\OneDrive\school\appr\APPR_lj3_IanWaals\DatabaseSetup&Search\DatabaseSetup&Search\obj\Debug\DatabaseSetup&Search.csproj.CoreCompileInputs.cache
+C:\Users\ianwa\OneDrive\school\appr\APPR_lj3_IanWaals\DatabaseSetup&Search\DatabaseSetup&Search\bin\Debug\DatabaseSetup&Search.exe.config
+C:\Users\ianwa\OneDrive\school\appr\APPR_lj3_IanWaals\DatabaseSetup&Search\DatabaseSetup&Search\bin\Debug\DatabaseSetup&Search.exe
+C:\Users\ianwa\OneDrive\school\appr\APPR_lj3_IanWaals\DatabaseSetup&Search\DatabaseSetup&Search\bin\Debug\DatabaseSetup&Search.pdb
+C:\Users\ianwa\OneDrive\school\appr\APPR_lj3_IanWaals\DatabaseSetup&Search\DatabaseSetup&Search\obj\Debug\DatabaseSetup&Search.exe
+C:\Users\ianwa\OneDrive\school\appr\APPR_lj3_IanWaals\DatabaseSetup&Search\DatabaseSetup&Search\obj\Debug\DatabaseSetup&Search.pdb
