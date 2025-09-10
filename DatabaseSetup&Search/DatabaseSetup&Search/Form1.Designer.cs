@@ -47,9 +47,9 @@
             // 
             // btnSearchIwaa
             // 
-            this.btnSearchIwaa.Location = new System.Drawing.Point(194, 7);
+            this.btnSearchIwaa.Location = new System.Drawing.Point(131, 8);
             this.btnSearchIwaa.Name = "btnSearchIwaa";
-            this.btnSearchIwaa.Size = new System.Drawing.Size(154, 23);
+            this.btnSearchIwaa.Size = new System.Drawing.Size(104, 23);
             this.btnSearchIwaa.TabIndex = 1;
             this.btnSearchIwaa.Text = "Search";
             this.btnSearchIwaa.UseVisualStyleBackColor = true;
@@ -57,9 +57,9 @@
             // 
             // btnResetIwaa
             // 
-            this.btnResetIwaa.Location = new System.Drawing.Point(372, 7);
+            this.btnResetIwaa.Location = new System.Drawing.Point(241, 7);
             this.btnResetIwaa.Name = "btnResetIwaa";
-            this.btnResetIwaa.Size = new System.Drawing.Size(154, 23);
+            this.btnResetIwaa.Size = new System.Drawing.Size(104, 23);
             this.btnResetIwaa.TabIndex = 2;
             this.btnResetIwaa.Text = "Reset";
             this.btnResetIwaa.UseVisualStyleBackColor = true;
@@ -69,7 +69,7 @@
             // 
             this.txbSearchIwaa.Location = new System.Drawing.Point(10, 8);
             this.txbSearchIwaa.Name = "txbSearchIwaa";
-            this.txbSearchIwaa.Size = new System.Drawing.Size(153, 22);
+            this.txbSearchIwaa.Size = new System.Drawing.Size(115, 22);
             this.txbSearchIwaa.TabIndex = 3;
             // 
             // Form1
