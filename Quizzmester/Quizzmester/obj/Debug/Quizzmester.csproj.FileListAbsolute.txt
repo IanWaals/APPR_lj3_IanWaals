@@ -1,0 +1,10 @@
+C:\Users\ianwa\OneDrive\school\appr\APPR_lj3_IanWaals\Quizzmester\Quizzmester\bin\Debug\Quizzmester.exe.config
+C:\Users\ianwa\OneDrive\school\appr\APPR_lj3_IanWaals\Quizzmester\Quizzmester\bin\Debug\Quizzmester.exe
+C:\Users\ianwa\OneDrive\school\appr\APPR_lj3_IanWaals\Quizzmester\Quizzmester\bin\Debug\Quizzmester.pdb
+C:\Users\ianwa\OneDrive\school\appr\APPR_lj3_IanWaals\Quizzmester\Quizzmester\obj\Debug\Quizzmester.csproj.AssemblyReference.cache
+C:\Users\ianwa\OneDrive\school\appr\APPR_lj3_IanWaals\Quizzmester\Quizzmester\obj\Debug\Quizzmester.Form1.resources
+C:\Users\ianwa\OneDrive\school\appr\APPR_lj3_IanWaals\Quizzmester\Quizzmester\obj\Debug\Quizzmester.Properties.Resources.resources
+C:\Users\ianwa\OneDrive\school\appr\APPR_lj3_IanWaals\Quizzmester\Quizzmester\obj\Debug\Quizzmester.csproj.GenerateResource.cache
+C:\Users\ianwa\OneDrive\school\appr\APPR_lj3_IanWaals\Quizzmester\Quizzmester\obj\Debug\Quizzmester.csproj.CoreCompileInputs.cache
+C:\Users\ianwa\OneDrive\school\appr\APPR_lj3_IanWaals\Quizzmester\Quizzmester\obj\Debug\Quizzmester.exe
+C:\Users\ianwa\OneDrive\school\appr\APPR_lj3_IanWaals\Quizzmester\Quizzmester\obj\Debug\Quizzmester.pdb
