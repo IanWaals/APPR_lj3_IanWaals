@@ -8,3 +8,4 @@ C:\Users\ianwa\OneDrive\school\appr\APPR_lj3_IanWaals\Quizzmester\Quizzmester\ob
 C:\Users\ianwa\OneDrive\school\appr\APPR_lj3_IanWaals\Quizzmester\Quizzmester\obj\Debug\Quizzmester.csproj.CoreCompileInputs.cache
 C:\Users\ianwa\OneDrive\school\appr\APPR_lj3_IanWaals\Quizzmester\Quizzmester\obj\Debug\Quizzmester.exe
 C:\Users\ianwa\OneDrive\school\appr\APPR_lj3_IanWaals\Quizzmester\Quizzmester\obj\Debug\Quizzmester.pdb
+C:\Users\ianwa\OneDrive\school\appr\APPR_lj3_IanWaals\Quizzmester\Quizzmester\obj\Debug\Quizzmester.exe.config

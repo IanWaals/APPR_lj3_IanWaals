@@ -58,11 +58,14 @@
             this.btnBasketballIwaa = new System.Windows.Forms.Button();
             this.label8 = new System.Windows.Forms.Label();
             this.tbpQuizzIwaa = new System.Windows.Forms.TabPage();
-            this.lblQuestionIwaa = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.lblScoreIwaa = new System.Windows.Forms.Label();
             this.button4 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.lblQuestionIwaa = new System.Windows.Forms.Label();
+            this.tbpScoreBoardIWaa = new System.Windows.Forms.TabPage();
+            this.dgvScoreBoardIwaa = new System.Windows.Forms.DataGridView();
             this.tbcScreensIwaa.SuspendLayout();
             this.tbpStartScreenIwaa.SuspendLayout();
             this.gbxLoginOrRegisterIwaa.SuspendLayout();
@@ -70,6 +73,8 @@
             this.tbpLoginIwaa.SuspendLayout();
             this.tbpCategorySelectIwaa.SuspendLayout();
             this.tbpQuizzIwaa.SuspendLayout();
+            this.tbpScoreBoardIWaa.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvScoreBoardIwaa)).BeginInit();
             this.SuspendLayout();
             // 
             // tbcScreensIwaa
@@ -79,6 +84,7 @@
             this.tbcScreensIwaa.Controls.Add(this.tbpLoginIwaa);
             this.tbcScreensIwaa.Controls.Add(this.tbpCategorySelectIwaa);
             this.tbcScreensIwaa.Controls.Add(this.tbpQuizzIwaa);
+            this.tbcScreensIwaa.Controls.Add(this.tbpScoreBoardIWaa);
             this.tbcScreensIwaa.Location = new System.Drawing.Point(1, 2);
             this.tbcScreensIwaa.Name = "tbcScreensIwaa";
             this.tbcScreensIwaa.SelectedIndex = 0;
@@ -102,7 +108,7 @@
             // 
             this.btnPlayAsGuestIwaa.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.btnPlayAsGuestIwaa.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPlayAsGuestIwaa.Location = new System.Drawing.Point(564, 181);
+            this.btnPlayAsGuestIwaa.Location = new System.Drawing.Point(565, 181);
             this.btnPlayAsGuestIwaa.Name = "btnPlayAsGuestIwaa";
             this.btnPlayAsGuestIwaa.Size = new System.Drawing.Size(195, 236);
             this.btnPlayAsGuestIwaa.TabIndex = 6;
@@ -384,6 +390,7 @@
             // tbpQuizzIwaa
             // 
             this.tbpQuizzIwaa.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.tbpQuizzIwaa.Controls.Add(this.lblScoreIwaa);
             this.tbpQuizzIwaa.Controls.Add(this.button4);
             this.tbpQuizzIwaa.Controls.Add(this.button3);
             this.tbpQuizzIwaa.Controls.Add(this.button2);
@@ -396,33 +403,23 @@
             this.tbpQuizzIwaa.TabIndex = 4;
             this.tbpQuizzIwaa.Text = "Quizz";
             // 
-            // lblQuestionIwaa
+            // lblScoreIwaa
             // 
-            this.lblQuestionIwaa.AutoSize = true;
-            this.lblQuestionIwaa.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblQuestionIwaa.Location = new System.Drawing.Point(17, 17);
-            this.lblQuestionIwaa.Name = "lblQuestionIwaa";
-            this.lblQuestionIwaa.Size = new System.Drawing.Size(98, 32);
-            this.lblQuestionIwaa.TabIndex = 0;
-            this.lblQuestionIwaa.Text = "label9";
+            this.lblScoreIwaa.AutoSize = true;
+            this.lblScoreIwaa.Location = new System.Drawing.Point(737, 17);
+            this.lblScoreIwaa.Name = "lblScoreIwaa";
+            this.lblScoreIwaa.Size = new System.Drawing.Size(44, 16);
+            this.lblScoreIwaa.TabIndex = 5;
+            this.lblScoreIwaa.Text = "label9";
             // 
-            // button1
+            // button4
             // 
-            this.button1.Location = new System.Drawing.Point(9, 330);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(373, 96);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(408, 328);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(373, 96);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button4.Location = new System.Drawing.Point(8, 225);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(373, 96);
+            this.button4.TabIndex = 4;
+            this.button4.Text = "button4";
+            this.button4.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
@@ -433,14 +430,53 @@
             this.button3.Text = "button3";
             this.button3.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // button2
             // 
-            this.button4.Location = new System.Drawing.Point(8, 225);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(373, 96);
-            this.button4.TabIndex = 4;
-            this.button4.Text = "button4";
-            this.button4.UseVisualStyleBackColor = true;
+            this.button2.Location = new System.Drawing.Point(408, 328);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(373, 96);
+            this.button2.TabIndex = 2;
+            this.button2.Text = "button2";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(9, 330);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(373, 96);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // lblQuestionIwaa
+            // 
+            this.lblQuestionIwaa.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblQuestionIwaa.Location = new System.Drawing.Point(17, 17);
+            this.lblQuestionIwaa.Name = "lblQuestionIwaa";
+            this.lblQuestionIwaa.Size = new System.Drawing.Size(500, 500);
+            this.lblQuestionIwaa.TabIndex = 0;
+            this.lblQuestionIwaa.Text = "label9";
+            // 
+            // tbpScoreBoardIWaa
+            // 
+            this.tbpScoreBoardIWaa.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.tbpScoreBoardIWaa.Controls.Add(this.dgvScoreBoardIwaa);
+            this.tbpScoreBoardIWaa.Location = new System.Drawing.Point(4, 25);
+            this.tbpScoreBoardIWaa.Name = "tbpScoreBoardIWaa";
+            this.tbpScoreBoardIWaa.Padding = new System.Windows.Forms.Padding(3);
+            this.tbpScoreBoardIWaa.Size = new System.Drawing.Size(790, 447);
+            this.tbpScoreBoardIWaa.TabIndex = 5;
+            this.tbpScoreBoardIWaa.Text = "ScoreBoard";
+            // 
+            // dgvScoreBoardIwaa
+            // 
+            this.dgvScoreBoardIwaa.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvScoreBoardIwaa.Location = new System.Drawing.Point(7, 3);
+            this.dgvScoreBoardIwaa.Name = "dgvScoreBoardIwaa";
+            this.dgvScoreBoardIwaa.RowHeadersWidth = 51;
+            this.dgvScoreBoardIwaa.RowTemplate.Height = 24;
+            this.dgvScoreBoardIwaa.Size = new System.Drawing.Size(777, 438);
+            this.dgvScoreBoardIwaa.TabIndex = 0;
             // 
             // Form1
             // 
@@ -465,6 +501,8 @@
             this.tbpCategorySelectIwaa.PerformLayout();
             this.tbpQuizzIwaa.ResumeLayout(false);
             this.tbpQuizzIwaa.PerformLayout();
+            this.tbpScoreBoardIWaa.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvScoreBoardIwaa)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -506,6 +544,9 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label lblScoreIwaa;
+        private System.Windows.Forms.TabPage tbpScoreBoardIWaa;
+        private System.Windows.Forms.DataGridView dgvScoreBoardIwaa;
     }
 }
 

@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Quizzmester
 {
-    internal class Questions
+    public class QuestionData
     {
+        public int QuestionId { get; set; }
+        public string QuestionText { get; set; }
     }
 }
